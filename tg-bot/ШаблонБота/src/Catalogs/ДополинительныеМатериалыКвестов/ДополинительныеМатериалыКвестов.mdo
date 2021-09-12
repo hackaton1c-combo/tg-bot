@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="586ba996-3c73-4eaf-9fcc-ec7e53305d7f">
+  <producedTypes>
+    <objectType typeId="0ee7a182-2986-44d6-8724-17858e5ca1b3" valueTypeId="c095ff14-8076-4421-bdcb-5b128c8cd9c5"/>
+    <refType typeId="322b23ec-e2b9-46e5-ad4a-ce5535bd1aa6" valueTypeId="9fbc092e-940d-44f1-96be-ce217d316622"/>
+    <selectionType typeId="dbbb9433-1479-431b-9fe0-16f746029cb8" valueTypeId="cae68b8b-e70d-4ff3-8061-0fa8b2afb2ec"/>
+    <listType typeId="53905d4f-8ede-47ab-be1a-88ee02a4fbb0" valueTypeId="e8ad0a0c-cf49-47fd-a7a2-012fabf9d568"/>
+    <managerType typeId="59d3e149-089f-4c39-87e0-6ab26df38e8c" valueTypeId="ff5f46b2-9596-49d0-a53f-8d19fdcb3702"/>
+  </producedTypes>
+  <name>ДополинительныеМатериалыКвестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополинительные материалы квестов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДополинительныеМатериалыКвестов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДополинительныеМатериалыКвестов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

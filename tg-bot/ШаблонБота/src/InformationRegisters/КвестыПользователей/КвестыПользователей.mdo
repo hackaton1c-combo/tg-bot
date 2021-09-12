@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2f4e6eb-ec86-4a12-8d61-d80c94a86d6b">
+  <producedTypes>
+    <selectionType typeId="8b7fae40-86ce-4758-ab7f-08cde2800daa" valueTypeId="bbe8ed03-379b-4970-82d1-f5e20d585b1a"/>
+    <listType typeId="4daef269-b1b9-4115-8e20-aa91add19ca7" valueTypeId="110d47b0-e8d2-427c-9d67-2944693bd8ec"/>
+    <managerType typeId="77a828c1-64ef-4bfc-9320-764bd3e9e7cb" valueTypeId="0ea72de8-c056-4542-a5b5-0cbcb2c1a0a9"/>
+    <recordSetType typeId="b91c1e50-7900-4f20-93ea-9d2ee29c789d" valueTypeId="66f2c25f-4ccb-404f-ba80-5a7e56d7017d"/>
+    <recordKeyType typeId="7f9f670d-c428-4ffd-b01c-bd40f454fd4a" valueTypeId="ca12cbba-e777-4f76-81cc-7876f3fa552c"/>
+    <recordType typeId="63719050-15b2-4669-9cf4-6398b3520e44" valueTypeId="c4f1d5d7-ac2d-4e3f-b328-57a3beda64c6"/>
+    <recordManagerType typeId="3a68b3d6-fe1a-4f33-a2e4-183d66fe93f6" valueTypeId="078b565b-1408-4806-a762-05f7c048811b"/>
+  </producedTypes>
+  <name>КвестыПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квесты пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="69034207-ff11-42dd-a95a-442788080c01">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияКвеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3631d4e1-a443-4edb-b753-862a468253d2">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="67b38a20-d9b9-4f40-b2cf-98441d1c0341">
+    <name>Квест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квест</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

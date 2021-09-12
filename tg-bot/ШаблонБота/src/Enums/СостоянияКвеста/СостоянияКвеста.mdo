@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a420d34e-2824-4bca-9ddd-5f183cb9c2ca">
+  <producedTypes>
+    <refType typeId="13ef1d5f-4275-47d7-be62-8c78f080a8ce" valueTypeId="40826e84-8ff3-4cc9-bd00-e5a658b57a8d"/>
+    <listType typeId="5161ba73-b3aa-4bca-bce8-ae9ca8e2b686" valueTypeId="852f2443-2465-40b1-8fe0-d29e7c719c1b"/>
+    <managerType typeId="4f32ebc0-3551-4f10-9c60-c19013620770" valueTypeId="2099aeee-e43a-4e19-868b-94ad07b2e96d"/>
+  </producedTypes>
+  <name>СостоянияКвеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния квеста</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed51bca3-53e5-48a3-866d-6eb6c40615ad">
+    <name>Выдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fe1fdc7-0693-4b0c-a3e5-437cf00d64e0">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80b5c8bd-b6b6-4d4f-992a-073af71b6e20">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb7d936c-d544-40cd-b2b9-9e1ef3a74572">
+  <name>Квесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квесты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.КвестПользователю</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.БонусыИШтрафы</content>
+  <content>Enum.СостоянияКвеста</content>
+  <content>Catalog.Квесты</content>
+  <content>AccumulationRegister.БалансПользователя</content>
+  <content>InformationRegister.КурсЗолота</content>
+</mdclass:Subsystem>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d365211f-1a24-4b57-8d15-40615d88c7d1">
+  <producedTypes>
+    <selectionType typeId="bac13d6b-0b47-425b-b24a-305b8e9043cd" valueTypeId="f8cef391-97cb-47bf-ad93-fad6d3a3c77e"/>
+    <listType typeId="5fb365ae-1c63-4ee9-8b9d-91ac827481bc" valueTypeId="e070ef09-5a91-41aa-97e2-97944b14920a"/>
+    <managerType typeId="569e05ed-4564-4f46-9279-21f9b640f31d" valueTypeId="5794e469-a25f-442d-ab39-8ae1d4ff58da"/>
+    <recordSetType typeId="e72eadc3-49a9-4204-b8be-3b2333782e31" valueTypeId="f49e030d-e955-4141-91b6-b49413d93ab3"/>
+    <recordKeyType typeId="a17857a9-b07b-4209-8e9a-8b5d8c3d27b2" valueTypeId="0d09d1dd-b7b9-47b5-9c0a-1916f76f2307"/>
+    <recordType typeId="6af36f6c-1938-4cb2-bc56-f09c2c7ba4e2" valueTypeId="98ff8ad2-a8f5-4915-973d-a749b562633e"/>
+    <recordManagerType typeId="57fd0b87-fa0e-45b3-8676-087b52957015" valueTypeId="93350be8-469e-4621-82f9-c0f59fe218cd"/>
+  </producedTypes>
+  <name>КурсЗолота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курс золота</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ce208850-4904-43b1-8a80-0c6a80897de5">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость единицы золота в серебре</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

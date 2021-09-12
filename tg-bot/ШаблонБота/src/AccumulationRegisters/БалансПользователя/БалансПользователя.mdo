@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39f539c7-93e4-475b-8f07-6b7f5b25c02c">
+  <producedTypes>
+    <selectionType typeId="adaf75f0-d18c-427c-b8ed-62b97c9397fc" valueTypeId="0a394b36-2c6e-4d8a-9aaa-bb923b491847"/>
+    <listType typeId="a802e341-d5f8-4b47-867c-9a3b9fb23e2e" valueTypeId="4ece2fb1-3703-4d4f-a08f-76af8c88e31f"/>
+    <managerType typeId="a082137c-0719-4e8b-a3ac-b8994997cc75" valueTypeId="a43b71d2-8b15-4ef1-ae8c-0b3b33394015"/>
+    <recordSetType typeId="8ee56841-3218-4b58-af42-0b6771dd1f8a" valueTypeId="7bfa0c15-112e-4a12-8e9e-0d0640366dff"/>
+    <recordKeyType typeId="d2232087-1b70-4e04-b44f-f94b475c6b50" valueTypeId="6370159c-b4f4-4f31-ab04-0ee44d634059"/>
+    <recordType typeId="a013b001-6e0f-4568-9bba-a902fdd0949f" valueTypeId="5eeabb30-96d9-49bb-a73a-20de40594313"/>
+  </producedTypes>
+  <name>БалансПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс пользователя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="25e76551-e515-4502-9d39-048f0ec3e1cb">
+    <name>Золото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Золото</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f392321a-8ce4-4250-9e71-ceaa41436544">
+    <name>Серебро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серебро</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b86cb91b-834d-4a39-8c4e-d365bd2eab4b">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

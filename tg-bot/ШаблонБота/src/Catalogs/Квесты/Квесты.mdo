@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53ca5c29-2885-45ee-9f24-6022867cb2c7">
+  <producedTypes>
+    <objectType typeId="56cb04cc-a46d-4455-8ae1-e269f37a01eb" valueTypeId="9f6f4dea-6419-46ea-accc-9bc8aeccbf93"/>
+    <refType typeId="2fa2ff90-2235-4c30-951e-0bc0a37e77e5" valueTypeId="7c9a6781-827e-41d4-a66e-cd053e600924"/>
+    <selectionType typeId="bb6a3975-c563-4599-a50d-106bfacf3723" valueTypeId="9a01fd38-6013-44df-a2c7-350025eac9ee"/>
+    <listType typeId="24c56646-d7b7-48ad-8cc8-676af9a95cbc" valueTypeId="09c1998d-2609-401c-b73d-2fbf6bd966ae"/>
+    <managerType typeId="d7e96003-6b9a-49dd-b512-0454a8bd95e6" valueTypeId="19323025-d4c7-4c66-8260-66f90416e484"/>
+  </producedTypes>
+  <name>Квесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квесты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Квесты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Квесты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Квест</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Квесты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="8e1f5049-28f2-4bcf-a39a-7fa6b0f62406">
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <comment>Содержит описание задачи, ссылку на задачу во внешней учетной системе</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4eb54972-c4dc-4d16-8236-13e2ec33044d">
+    <name>СтоимостьЗолото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Золото</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa0e545e-71ca-4305-aaaa-1673f0bcf551">
+    <name>СтоимостьСеребро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серебро</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d593a043-a65d-4f13-ac42-c836264d0ebd">
+    <name>ДопМатериалПеред</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп материал перед</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополинительныеМатериалыКвестов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afd1451d-71d8-4032-a395-65156af7e788">
+    <name>ДопМатериалПосле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп материал после</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополинительныеМатериалыКвестов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fbd38896-3c1a-4605-9144-b07514b01982">
+    <producedTypes>
+      <objectType typeId="93a10b92-ec93-482b-befc-13cb016b27a2" valueTypeId="f3103111-817a-4cf3-8592-1df19859f4dc"/>
+      <rowType typeId="8f759205-0391-4fb9-94d1-fb1b68601f31" valueTypeId="529d60e2-1d56-41dd-a6eb-43a5c1c2dd88"/>
+    </producedTypes>
+    <name>МодификаторыСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модификаторы стоимости</value>
+    </synonym>
+    <attributes uuid="b3ad7786-ec5e-465d-ba0d-244432298126">
+      <name>Модификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модификатор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БонусыИШтрафы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3d6978c6-2258-40f3-b53c-5b0899b69347">
+      <name>СтоимостьЗолото</name>
+      <synonym>
+        <key>ru</key>
+        <value>Золото</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7eac32e5-2e86-40f3-b987-4e11f17ef9bf">
+      <name>СтоимостьСеребро</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серебро</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c06a6e1a-b385-4a3b-b17d-e420ecc3579e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
