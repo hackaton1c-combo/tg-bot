@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fff7330c-8a58-450c-af2c-18e35f014b57">
+  <producedTypes>
+    <managerType typeId="70cc2a46-2969-4195-a7b1-bd7b8cee36ec" valueTypeId="74cbcd94-1cb4-41df-b91a-f56da0ecc0fa"/>
+    <valueManagerType typeId="bab0a2ef-4e74-4b8c-80a8-d51a621496aa" valueTypeId="65e3b11f-88a0-46ac-90ad-7392d8419314"/>
+    <valueKeyType typeId="1238fdd1-dff7-403f-9267-522623991638" valueTypeId="ba0f7f5e-6735-4f34-8bca-a7f929bbf5ce"/>
+  </producedTypes>
+  <name>ТелеграмПодключен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм подключен</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

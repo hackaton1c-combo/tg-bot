@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af0b23cc-fb70-4dd5-826e-27fad6647d42">
+  <producedTypes>
+    <managerType typeId="6a7c4b53-8037-4f5d-8a27-e27dfb5ce317" valueTypeId="b12a94a4-0486-4acf-b75c-8e63b2802b35"/>
+    <valueManagerType typeId="99ba8e7e-6238-4547-bf3a-163a22208c8b" valueTypeId="0f953660-e295-4836-b353-2fadf8ac99c3"/>
+    <valueKeyType typeId="1b8eae24-b8be-42ff-ad5c-e497556bd9ac" valueTypeId="0862f1b4-fef7-4bcb-8da0-c59d69b95a69"/>
+  </producedTypes>
+  <name>АдресСервераТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес сервера телеграм</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

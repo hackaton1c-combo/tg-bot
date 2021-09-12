@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="392e8b92-44b5-431f-9aaf-695d593d233a">
+  <producedTypes>
+    <managerType typeId="fc22ff2d-782d-43d3-94e2-d3ded20368ec" valueTypeId="197acddb-e67b-4b55-9f33-fd2ef04843bb"/>
+    <valueManagerType typeId="7e5e502c-4421-4435-b552-775d449312b3" valueTypeId="4e6a89e1-254e-4cbf-8f6b-ed56f62e50e5"/>
+    <valueKeyType typeId="65028cd8-2d71-4a72-999a-01ccbf52dd65" valueTypeId="b8d4e3a8-f838-4ae5-a45c-08def311e9e1"/>
+  </producedTypes>
+  <name>АдресВебХукаТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес веб хука телеграм</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

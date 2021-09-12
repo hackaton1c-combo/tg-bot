@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ad7b60f-2c1a-4be1-977d-97bb0dc5acd5">
+  <producedTypes>
+    <objectType typeId="1109d803-e41e-4b38-bc96-31b010fd472d" valueTypeId="b14c8fd2-8df0-4724-9dfb-b0d014f7b615"/>
+    <managerType typeId="f3a7b3df-d755-4913-af02-fc4afa7e230a" valueTypeId="a95da2eb-d829-4574-8411-d2cf0e320b4f"/>
+  </producedTypes>
+  <name>НастройкиИнтеграцииТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции телеграм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкиИнтеграцииТелеграм.Form.Форма</defaultForm>
+  <forms uuid="097444b2-f608-41ed-9127-701f9aa1b873">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

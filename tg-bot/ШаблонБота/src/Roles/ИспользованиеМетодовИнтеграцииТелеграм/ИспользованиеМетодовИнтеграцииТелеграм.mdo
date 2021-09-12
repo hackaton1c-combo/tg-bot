@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5f07ab3-ecfc-4fff-a056-d27e7ebd5772">
+  <name>ИспользованиеМетодовИнтеграцииТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование методов интеграции телеграм</value>
+  </synonym>
+</mdclass:Role>

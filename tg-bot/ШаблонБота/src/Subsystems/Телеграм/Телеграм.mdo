@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e36eba74-ee35-42ab-9b43-d04d0f5e782e">
+  <name>Телеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.НастройкиИнтеграцииТелеграм</content>
+  <content>Catalog.НеобработанноеВходящееСообщениеТелеграм</content>
+</mdclass:Subsystem>
