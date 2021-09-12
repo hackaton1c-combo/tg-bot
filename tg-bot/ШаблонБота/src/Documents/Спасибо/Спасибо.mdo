@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="466e5215-4f80-47e7-a49b-572486af9a33">
+  <producedTypes>
+    <objectType typeId="9154a6c9-d864-49d1-80a9-f9529e1c04a4" valueTypeId="343844b2-1845-46f6-aeb4-b77e169f3e32"/>
+    <refType typeId="dce335e4-6869-4382-9fd8-061410c99af1" valueTypeId="86621f97-e4c9-43f5-80ed-93e4537b9314"/>
+    <selectionType typeId="b7334fb5-7643-4846-8e4c-10d515f58a6f" valueTypeId="0560bb5f-72d6-47e2-b613-f0bfee87a960"/>
+    <listType typeId="c5e04fc6-e8c9-4873-8e14-b64ff217f44a" valueTypeId="3222798c-0706-4e00-9519-10c6d6ee1653"/>
+    <managerType typeId="396157d9-9894-4e8d-aa43-e754871de477" valueTypeId="f191327f-3f2f-4f78-89d9-2dfdc5689c34"/>
+  </producedTypes>
+  <name>Спасибо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спасибо</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Спасибо.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Спасибо.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.БалансПользователя</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="251752c7-4914-4ce0-b13d-e50227f5a5fd">
+    <name>КтоПоблагодарил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кто поблагодарил</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a561508-cb61-498f-8cf8-745f1c62d68a">
+    <name>КогоПоблагодарил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кого поблагодарил</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e121b54-1057-4de9-9000-70b27f694cb1">
+    <name>ЗаЧтоПоблагодарил</name>
+    <synonym>
+      <key>ru</key>
+      <value>За что поблагодарил</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="31b8902c-5d73-4e64-9906-9054f354ef31">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
