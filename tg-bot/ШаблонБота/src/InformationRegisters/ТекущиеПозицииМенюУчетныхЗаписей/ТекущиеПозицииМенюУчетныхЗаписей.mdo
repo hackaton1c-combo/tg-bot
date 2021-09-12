@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce6d3802-d0bf-4bce-8d4e-3d75e1d42e1e">
+  <producedTypes>
+    <selectionType typeId="7df86515-f356-40ce-8efb-3146bdb05cce" valueTypeId="8a26b726-e36d-4166-a370-cfe786262aa7"/>
+    <listType typeId="5816feff-f13a-4c77-a975-b8536368b862" valueTypeId="7ddd63ec-c036-499f-90b2-b32fdec61480"/>
+    <managerType typeId="94fee351-4492-401e-b20f-4174e4931415" valueTypeId="78eed38f-439b-4e9c-944f-b0279bbc581b"/>
+    <recordSetType typeId="b2f3c394-370f-4dc0-bc9e-ff096449a54b" valueTypeId="a8a16d5b-f614-489b-abad-36013e7c3f14"/>
+    <recordKeyType typeId="8048410d-315d-4408-9f4b-268d056cec1a" valueTypeId="d550ab7d-4ada-44aa-aaf0-d28d69f7faba"/>
+    <recordType typeId="feb00104-4473-4568-b2c7-ea42306e12bc" valueTypeId="99098cef-65c6-482d-a36f-98cdf5c6a525"/>
+    <recordManagerType typeId="fa507c8a-1e9d-49d5-9047-fedf0c5644f8" valueTypeId="2a31f57f-a046-4fbd-a1f9-5f185de737c4"/>
+  </producedTypes>
+  <name>ТекущиеПозицииМенюУчетныхЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие позиции меню учетных записей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="358ab678-c0fb-412c-b908-30b330fa2e8f">
+    <name>ПозицияМеню</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция меню</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПозицииМеню</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2524653b-edc3-43a3-a6bf-087c319b727f">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиТелеграм</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

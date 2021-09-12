@@ -291,7 +291,6 @@
   <roles>Role.ЧтениеВнешнихПользователей</roles>
   <roles>Role.ИспользованиеМетодовИнтеграцииТелеграм</roles>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
-  <commonModules>CommonModule.Телеграм</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
@@ -301,8 +300,6 @@
   <commonModules>CommonModule.АдминистрированиеКластераRASКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
   <commonModules>CommonModule.АнализЖурналаРегистрацииСлужебный</commonModules>
-  <commonModules>CommonModule.HTTPСервисы</commonModules>
-  <commonModules>CommonModule.HTTPСервисыСлужебный</commonModules>
   <commonModules>CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</commonModules>
   <commonModules>CommonModule.ВнешниеПользователи</commonModules>
   <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
@@ -397,6 +394,11 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыШаблонБота</commonModules>
   <commonModules>CommonModule.ВалютаСервер</commonModules>
   <commonModules>CommonModule.ВалютаВызовСервера</commonModules>
+  <commonModules>CommonModule.Телеграм</commonModules>
+  <commonModules>CommonModule.HTTPСервисы</commonModules>
+  <commonModules>CommonModule.HTTPСервисыСлужебный</commonModules>
+  <commonModules>CommonModule.ТелеграмШаблоныСообщений</commonModules>
+  <commonModules>CommonModule.ТелеграмПереопределяемый</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.Адрес</xDTOPackages>
   <xDTOPackages>XDTOPackage.КонтактнаяИнформация</xDTOPackages>
@@ -561,6 +563,7 @@
   <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.НеобработанноеВходящееСообщениеТелеграм</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиТелеграм</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.БонусыИШтрафы</catalogs>
   <catalogs>Catalog.ДополинительныеМатериалыКвестов</catalogs>
@@ -575,6 +578,8 @@
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <enums>Enum.СостоянияКвеста</enums>
+  <enums>Enum.ПозицииМеню</enums>
+  <enums>Enum.ВидыКаталогов</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
   <reports>Report.ПраваДоступа</reports>
@@ -630,5 +635,6 @@
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.КвестыПользователей</informationRegisters>
   <informationRegisters>InformationRegister.КурсЗолота</informationRegisters>
+  <informationRegisters>InformationRegister.ТекущиеПозицииМенюУчетныхЗаписей</informationRegisters>
   <accumulationRegisters>AccumulationRegister.БалансПользователя</accumulationRegisters>
 </mdclass:Configuration>

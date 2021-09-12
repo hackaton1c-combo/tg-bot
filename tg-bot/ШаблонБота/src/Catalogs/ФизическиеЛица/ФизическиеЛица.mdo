@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="729aae35-8972-487a-b380-047c09146e70">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="729aae35-8972-487a-b380-047c09146e70">
   <producedTypes>
-    <objectType typeId="6bc1cb46-242a-4f1c-8a4e-579823f9df91" valueTypeId="8c2ce167-0694-4b12-9005-dd38c2a8166e"/>
-    <refType typeId="d73384be-acbe-472b-b7e7-56a9cc940d7b" valueTypeId="15fa6161-48f6-4349-9ba5-3a4d9d9d1430"/>
-    <selectionType typeId="0222870e-d1cf-45f9-802d-463611d2c944" valueTypeId="6b2f9626-6f03-4257-a7d1-896e16f18140"/>
-    <listType typeId="7034e27e-3606-4da4-b9ab-0ef38ca740a1" valueTypeId="c1c36e42-3c22-4f26-81c5-89defc5a2f79"/>
-    <managerType typeId="dd8a2743-17e1-460e-a3c1-0f4ad54259f4" valueTypeId="160b6e0f-75a1-4777-bacb-46555296be57"/>
+    <objectType typeId="f9a1a242-d67c-4688-996f-7546b7571e18" valueTypeId="bba73517-0244-4847-bc2c-d90452b4b1e5"/>
+    <refType typeId="3463dd4f-d31f-4031-86d2-cdaebfea12d7" valueTypeId="02f07bc8-d0de-4525-8882-84b3bb01c848"/>
+    <selectionType typeId="f2a9f8cd-75ff-4d07-966b-ff79a2745a19" valueTypeId="414d727f-9b5f-4388-9933-e81d34b5138f"/>
+    <listType typeId="b0f96885-67cd-4a3a-8e3b-2837f0881f5f" valueTypeId="1718aebc-d65e-44f5-932f-0000acbed435"/>
+    <managerType typeId="196437a3-814e-4dc9-954d-4317c5d9290f" valueTypeId="06fde7b2-8f4b-4dcd-b252-b6347d1a61d9"/>
   </producedTypes>
   <name>ФизическиеЛица</name>
   <synonym>
@@ -22,7 +22,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -30,4 +30,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4da41a12-d69c-4468-a471-a5276f160992">
+    <name>ДействующийСотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующий сотрудник</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
