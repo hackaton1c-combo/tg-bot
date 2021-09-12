@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0956dafe-9739-45d4-b4a1-7056ac6ffed1">
+  <name>ТелеграмШаблоныСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм шаблоны сообщений</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

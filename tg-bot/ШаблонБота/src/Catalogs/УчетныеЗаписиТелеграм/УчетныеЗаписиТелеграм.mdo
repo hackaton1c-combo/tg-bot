@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0e1729b-cbcf-49b7-be8a-927a07af031e">
+  <producedTypes>
+    <objectType typeId="4d7b8823-9912-400c-8e75-f52aeb6f2af8" valueTypeId="eac447f9-5a1a-4769-8e03-68009dd03ae7"/>
+    <refType typeId="8c6ab25b-0710-46d4-aa33-53debfb7387c" valueTypeId="0797d5ad-e60d-47a6-be2a-3a255a503732"/>
+    <selectionType typeId="d38dd724-75fb-453d-a995-e0db9b6f4a8c" valueTypeId="a622792a-8901-46a4-bcc6-c81df31531e6"/>
+    <listType typeId="fa65a152-f065-410d-a67d-9ff4207c8262" valueTypeId="df848aa2-db9f-42b5-a1e3-2ac85f6829fe"/>
+    <managerType typeId="55d9818f-3a26-4699-86f6-78d322ec8e6d" valueTypeId="0918493a-c1bd-4ee8-9407-0dc43ad469aa"/>
+  </producedTypes>
+  <name>УчетныеЗаписиТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные записи телеграм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчетныеЗаписиТелеграм.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УчетныеЗаписиТелеграм.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>20</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b175c87d-4eec-4a3b-80a3-9b949c5f948d">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
