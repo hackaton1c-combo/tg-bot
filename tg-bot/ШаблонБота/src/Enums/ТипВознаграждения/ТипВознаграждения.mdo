@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e576058-3183-4a60-bc95-cedabfc67adf">
+  <producedTypes>
+    <refType typeId="c37839f8-6f4f-4f87-879f-fd3b20e7198e" valueTypeId="438548be-146e-40b3-a7f5-162ab8a5951e"/>
+    <listType typeId="6f7e0ee3-434b-4d89-bcfd-a18325aa578e" valueTypeId="a0699b49-7390-4fdb-a78e-f5f9d1db30d7"/>
+    <managerType typeId="ca6a1aca-cd51-4d88-99f1-2a4632342864" valueTypeId="4fb3d047-ef7c-453a-95c8-08007a84e9de"/>
+  </producedTypes>
+  <name>ТипВознаграждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип вознаграждения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0b09e8fd-8054-4d60-ae9e-bd88625fc154">
+    <name>Золото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Золото</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8ad4f23-2594-486d-b066-92b6ea90bc02">
+    <name>Серебро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серебро</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

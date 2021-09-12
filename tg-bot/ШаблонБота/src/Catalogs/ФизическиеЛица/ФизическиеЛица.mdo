@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fe8574b-406d-468e-a8b1-8db98206aaee">
+  <producedTypes>
+    <objectType typeId="258065b7-e361-42a7-ad50-cfd1ca8b7568" valueTypeId="83c9e930-ca59-46fe-b054-c6f87004f52a"/>
+    <refType typeId="8a80dae1-4486-4431-b554-1e39437e9771" valueTypeId="1e1143fb-d617-4f2e-a0bd-52615332e810"/>
+    <selectionType typeId="6be9db5d-7a07-4a55-90ac-0ed6b370980b" valueTypeId="e488abbe-c61d-49a8-9c7b-9a9e63d5c75a"/>
+    <listType typeId="16242a53-ff26-425d-af3e-478dbba498cb" valueTypeId="712f571b-85d9-499e-8383-97c8ab5086be"/>
+    <managerType typeId="c19bfd69-fe82-46bd-8413-5d70d1b72982" valueTypeId="72ca40f6-5e3b-4748-bd19-a09257c7bebe"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="57f5ff52-d406-432b-8b72-8ee387dbee02">
+    <name>КоличествоЗолото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество золото</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4b10ae2-a2d7-47be-8230-d8529c2516da">
+    <name>КоличествоСеребро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество серебро</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

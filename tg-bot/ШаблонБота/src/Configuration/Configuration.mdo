@@ -558,6 +558,11 @@
   <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.НеобработанноеВходящееСообщениеТелеграм</catalogs>
+  <catalogs>Catalog.НоменклатураМерча</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Файлы</catalogs>
+  <documents>Document.ПоступлениеМерча</documents>
+  <documents>Document.РеализацияМерча</documents>
   <enums>Enum.ДополнительныеЗначенияДоступа</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
@@ -566,6 +571,7 @@
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
+  <enums>Enum.ТипВознаграждения</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
   <reports>Report.ПраваДоступа</reports>
@@ -583,6 +589,7 @@
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
+  <dataProcessors>DataProcessor.ПокупкаМерча</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ЗависимостиПравДоступа</informationRegisters>
@@ -619,4 +626,5 @@
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ТаблицыГруппДоступа</informationRegisters>
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМерча</accumulationRegisters>
 </mdclass:Configuration>
