@@ -44,7 +44,9 @@
     <comment>Содержит описание задачи, ссылку на задачу во внешней учетной системе</comment>
     <type>
       <types>String</types>
-      <stringQualifiers/>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
