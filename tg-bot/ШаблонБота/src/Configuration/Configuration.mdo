@@ -400,6 +400,8 @@
   <commonModules>CommonModule.ТелеграмШаблоныСообщений</commonModules>
   <commonModules>CommonModule.ТелеграмПереопределяемый</commonModules>
   <commonModules>CommonModule.ТелеграмПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСервер</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСерверПовтИсп</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.Адрес</xDTOPackages>
   <xDTOPackages>XDTOPackage.КонтактнаяИнформация</xDTOPackages>
@@ -570,6 +572,7 @@
   <catalogs>Catalog.ДополинительныеМатериалыКвестов</catalogs>
   <catalogs>Catalog.Квесты</catalogs>
   <documents>Document.КвестПользователю</documents>
+  <documents>Document.Спасибо</documents>
   <enums>Enum.ДополнительныеЗначенияДоступа</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
@@ -638,5 +641,6 @@
   <informationRegisters>InformationRegister.КвестыПользователей</informationRegisters>
   <informationRegisters>InformationRegister.КурсЗолота</informationRegisters>
   <informationRegisters>InformationRegister.ТекущиеПозицииМенюУчетныхЗаписей</informationRegisters>
+  <informationRegisters>InformationRegister.СтоимостьСпасибо</informationRegisters>
   <accumulationRegisters>AccumulationRegister.БалансПользователя</accumulationRegisters>
 </mdclass:Configuration>

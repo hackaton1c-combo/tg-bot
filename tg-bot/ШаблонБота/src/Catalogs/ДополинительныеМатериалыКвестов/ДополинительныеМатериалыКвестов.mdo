@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="586ba996-3c73-4eaf-9fcc-ec7e53305d7f">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="586ba996-3c73-4eaf-9fcc-ec7e53305d7f">
   <producedTypes>
     <objectType typeId="0ee7a182-2986-44d6-8724-17858e5ca1b3" valueTypeId="c095ff14-8076-4421-bdcb-5b128c8cd9c5"/>
     <refType typeId="322b23ec-e2b9-46e5-ad4a-ce5535bd1aa6" valueTypeId="9fbc092e-940d-44f1-96be-ce217d316622"/>
@@ -22,7 +22,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>15</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -30,4 +30,32 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДополинительныеМатериалыКвестов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="5986116d-a83a-45f7-9343-6b54584b2ed5">
+    <name>СсылкаНаМатериал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на материал</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="20931ce6-7b5f-4bf8-ad67-0bee0937e4a2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
