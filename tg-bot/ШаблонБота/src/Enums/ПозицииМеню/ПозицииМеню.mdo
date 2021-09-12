@@ -19,4 +19,11 @@
       <value>Старт</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="8e09335d-32e0-4e43-938d-f28d7fdd2d82">
+    <name>Бонусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бонусы</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
