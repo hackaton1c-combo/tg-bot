@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="505833a5-53da-4f4e-bed7-1720ec908dc1">
+  <producedTypes>
+    <refType typeId="b94ab731-cde0-4819-8ed3-c373f4162b4c" valueTypeId="eafe4001-cff7-44de-a7fc-2b10a5703774"/>
+    <listType typeId="908ece40-7196-410a-824f-5f29d32fcdac" valueTypeId="d65ca58b-3dcc-4fea-bff4-4c40844073cb"/>
+    <managerType typeId="9c964dc0-331b-480c-a3cf-013c6598115f" valueTypeId="790d81b7-190e-416c-9c90-7be9e21bfeab"/>
+  </producedTypes>
+  <name>ПозицииМеню</name>
+  <synonym>
+    <key>ru</key>
+    <value>Позиции меню</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a0e4eea7-31ad-4a82-bd4f-3e2135effd43">
+    <name>Старт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

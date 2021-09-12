@@ -570,6 +570,8 @@
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
+  <enums>Enum.ПозицииМеню</enums>
+  <enums>Enum.ВидыКаталогов</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
   <reports>Report.ПраваДоступа</reports>
@@ -623,4 +625,5 @@
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ТаблицыГруппДоступа</informationRegisters>
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
+  <informationRegisters>InformationRegister.ТекущиеПозицииМенюУчетныхЗаписей</informationRegisters>
 </mdclass:Configuration>

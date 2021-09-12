@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03dd8198-c463-467d-bfab-2e1930ec554d">
+  <producedTypes>
+    <refType typeId="68f4a99b-26c5-4b90-86bb-494a108d264d" valueTypeId="3bb95774-3e62-4340-a0cd-08315db40dc3"/>
+    <listType typeId="e358c7c0-a563-4aed-865d-f95ce56558df" valueTypeId="51d95027-40de-4e41-93a7-506dfc2a5402"/>
+    <managerType typeId="558bbbf6-37e9-4377-b1bb-3d123372b018" valueTypeId="9fd32369-93e4-4409-a49c-2321a11a602b"/>
+  </producedTypes>
+  <name>ВидыКаталогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды каталогов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ad3006b3-8e6c-4ac4-ab0f-63e452af8965">
+    <name>Награды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Награды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b3e0894-faff-4ee7-bf69-9bd73d0e3204">
+    <name>Задачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
