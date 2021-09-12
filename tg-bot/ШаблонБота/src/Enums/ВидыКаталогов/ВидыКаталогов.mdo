@@ -26,4 +26,11 @@
       <value>Задачи</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="dedffd04-a819-455d-8de3-0d78bfe127ee">
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
