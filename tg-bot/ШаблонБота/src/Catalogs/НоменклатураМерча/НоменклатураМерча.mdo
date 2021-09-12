@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a17226c2-3882-40e1-a9b7-bc1469de2782">
+  <producedTypes>
+    <objectType typeId="4e24d726-421a-4037-b18a-2dfed709f3c4" valueTypeId="771d30a6-7dc1-4054-b425-d9aa21b3fa05"/>
+    <refType typeId="7a6661b3-8074-46ab-94c2-5990f34a24d8" valueTypeId="40fa722e-6dd2-4b74-ae02-9223de462226"/>
+    <selectionType typeId="9c6e4c4a-7a80-4af3-bbf1-52eb2745fd15" valueTypeId="a2ad807b-5a18-4cfc-b624-9f4e4d287a99"/>
+    <listType typeId="c2d3049d-dda4-4696-b0c0-1b2df37f1519" valueTypeId="c5468017-2d3d-4071-b3a8-6691c5c94eb3"/>
+    <managerType typeId="65010241-1fc0-427b-8555-3a45addc194b" valueTypeId="0dfaf8e1-18e2-4d97-8597-e91146811902"/>
+  </producedTypes>
+  <name>НоменклатураМерча</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура мерча</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НоменклатураМерча.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоменклатураМерча.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НоменклатураМерча.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="fc8d8a17-e085-4601-954e-0a62fbd653fc">
+    <name>Картинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee46dd68-0bc2-4a67-8c3d-68cd31c961e6">
+    <name>СтоимостьЗолото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Золото</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa0b8a68-2ae2-401d-8a47-95d8552b0608">
+    <name>СтоимостьСеребро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серебро</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="93e3e657-be90-48ce-9b2a-1459e3ae59ac">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

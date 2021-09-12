@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="640d7fa0-a51a-4ce5-abb0-bc1d71756c5a">
+  <producedTypes>
+    <objectType typeId="bf10e77e-0068-4501-b239-cb8fad973636" valueTypeId="5a6462c2-dabb-4414-86a8-ba8ecf339a01"/>
+    <refType typeId="ff8e3ca4-1e02-4200-aedf-99e59f5b156e" valueTypeId="0195ccf4-44fd-42a8-84ec-a1a420a6cfe2"/>
+    <selectionType typeId="2d5be635-65d0-42f6-b7b1-45e42f409121" valueTypeId="788b0831-b559-411c-affc-b6a5ad7a0ea5"/>
+    <listType typeId="b5e74ac4-7d5a-405c-9c0f-e8f9e1da5581" valueTypeId="90993201-cf01-45f8-8ea4-de5f6eff9bac"/>
+    <managerType typeId="a5df8f64-d205-4f15-9a93-161f4947c924" valueTypeId="d42b9d4e-370d-497c-a6bd-2875e5dc335d"/>
+  </producedTypes>
+  <name>РеализацияМерча</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация мерча</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеализацияМерча.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РеализацияМерча.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиМерча</registerRecords>
+  <registerRecords>AccumulationRegister.БалансПользователя</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d6fe8809-8f63-46d5-ac46-7d55649c7f21">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62e24fd5-245d-4642-a6e3-c040f254a43d">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураМерча</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="49ff8a12-51d6-48a5-aa43-88c8e8d98618">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

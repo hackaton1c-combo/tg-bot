@@ -566,10 +566,13 @@
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.НеобработанноеВходящееСообщениеТелеграм</catalogs>
   <catalogs>Catalog.УчетныеЗаписиТелеграм</catalogs>
+  <catalogs>Catalog.НоменклатураМерча</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.БонусыИШтрафы</catalogs>
   <catalogs>Catalog.ДополинительныеМатериалыКвестов</catalogs>
   <catalogs>Catalog.Квесты</catalogs>
+  <documents>Document.ПоступлениеМерча</documents>
+  <documents>Document.РеализацияМерча</documents>
   <documents>Document.КвестПользователю</documents>
   <documents>Document.Спасибо</documents>
   <enums>Enum.ДополнительныеЗначенияДоступа</enums>
@@ -600,6 +603,7 @@
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
+  <dataProcessors>DataProcessor.ПокупкаМерча</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ЗависимостиПравДоступа</informationRegisters>
@@ -640,5 +644,6 @@
   <informationRegisters>InformationRegister.КурсЗолота</informationRegisters>
   <informationRegisters>InformationRegister.ТекущиеПозицииМенюУчетныхЗаписей</informationRegisters>
   <informationRegisters>InformationRegister.СтоимостьСпасибо</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМерча</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БалансПользователя</accumulationRegisters>
 </mdclass:Configuration>
