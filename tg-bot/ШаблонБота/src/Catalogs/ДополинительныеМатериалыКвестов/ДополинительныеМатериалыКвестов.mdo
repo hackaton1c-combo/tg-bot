@@ -49,6 +49,51 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="ab003e89-847f-4232-823e-4b4656b87a9e">
+    <producedTypes>
+      <objectType typeId="4d178386-f7e1-487e-9812-4bd00738e715" valueTypeId="c1686aff-bdf2-481a-8bcf-bd4e3cd4c0c3"/>
+      <rowType typeId="c23f6e77-6f19-4cdb-90eb-748844a3cc88" valueTypeId="10a775a0-842d-415e-bc40-5ba537fa0d47"/>
+    </producedTypes>
+    <name>ПереченьМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень материалов</value>
+    </synonym>
+    <attributes uuid="30c2c4fc-5f89-438e-8e0f-d77e62e69ca7">
+      <name>Название</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="621623d8-4eaa-47ba-8846-3c426aa32cc9">
+      <name>Гипперссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Гипперссылка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="20931ce6-7b5f-4bf8-ad67-0bee0937e4a2">
     <name>ФормаЭлемента</name>
     <synonym>
