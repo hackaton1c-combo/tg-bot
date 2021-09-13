@@ -42,6 +42,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Телеграм</subsystems>
   <subsystems>Subsystem.Квесты</subsystems>
+  <subsystems>Subsystem.Мерч</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ИзмененноеЗначениеРеквизитаФон</styleItems>
   <styleItems>StyleItem.ЗапрещенноеПравоДоступа</styleItems>

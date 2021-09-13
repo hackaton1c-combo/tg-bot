@@ -439,8 +439,8 @@
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
     <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>
