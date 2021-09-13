@@ -18,6 +18,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <vendor>Команда Комбо</vendor>
   <version>1.0.0.1</version>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
