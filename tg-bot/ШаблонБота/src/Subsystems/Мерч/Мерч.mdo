@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcaea5f6-e899-42c8-89cc-72350006518d">
+  <name>Мерч</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мерч</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.НоменклатураМерча</content>
+  <content>Document.ПоступлениеМерча</content>
+  <content>Document.РеализацияМерча</content>
+  <content>AccumulationRegister.ОстаткиМерча</content>
+  <content>AccumulationRegister.БалансПользователя</content>
+</mdclass:Subsystem>
