@@ -84,4 +84,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="d06061ef-e79b-4237-91f5-379453f663f7">
+    <name>МакетТабДокаСОтчетом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет таб дока с отчетом</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
